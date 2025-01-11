@@ -816,9 +816,9 @@ button.swiper-pagination-bullet {
 }
 @font-face {
   font-family: Roboto;
-  src: url(./assets/fonts/Roboto-Regular-Ds6KraGe.ttf);
+  src: url(./fonts/Roboto-Regular-Ds6KraGe.ttf);
   src: local("Roboto"), local("Roboto-Regular"),
-    url(./assets/fonts/Roboto-Regular-Ds6KraGe.ttf) format("truetype");
+    url(./fonts/Roboto-Regular-Ds6KraGe.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -826,31 +826,31 @@ button.swiper-pagination-bullet {
   font-family: Roboto;
   src: url(Roboto-Medium.eot);
   src: local("Roboto Medium"), local("Roboto-Medium"),
-    url(./assets/fonts/Roboto-Medium-D3k-fcGv.ttf) format("truetype");
+    url(./fonts/Roboto-Medium-D3k-fcGv.ttf) format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: Roboto;
-  src: url(./assets/fonts/Roboto-Bold-5byz6fKo.ttf);
+  src: url(./fonts/Roboto-Bold-5byz6fKo.ttf);
   src: local("Roboto Bold"), local("Roboto-Bold"),
-    url(./assets/fonts/Roboto-Bold-5byz6fKo.ttf) format("truetype");
+    url(./fonts/Roboto-Bold-5byz6fKo.ttf) format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: Unbounded;
-  src: url(./assets/fonts/Unbounded-Bold-BVp_AAdg.ttf);
+  src: url(./fonts/Unbounded-Bold-BVp_AAdg.ttf);
   src: local("Unbounded Bold"), local("Unbounded-Bold"),
-    url(./assets/fonts/Unbounded-Bold-BVp_AAdg.ttf) format("truetype");
+    url(./fonts/Unbounded-Bold-BVp_AAdg.ttf) format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: Bebas Neue;
-  src: url(./assets/fonts/BebasNeueRegular-CoO1fCxi.ttf);
+  src: url(./fonts/BebasNeueRegular-CoO1fCxi.ttf);
   src: local("BebasNeue"), local("BebasNeue"),
-    url(./assets/fonts/BebasNeueRegular-CoO1fCxi.ttf) format("truetype");
+    url(./fonts/BebasNeueRegular-CoO1fCxi.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
 }
