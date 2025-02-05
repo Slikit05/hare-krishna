@@ -3,6 +3,11 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
+
+* {
+  outline: none;
+}
+
 body {
   margin: 0;
 }
@@ -2341,7 +2346,7 @@ html.with-fancybox body.hide-scrollbar {
 }
 @media screen and (max-width: 767px) {
   .section-decorate {
-    min-height: 120px;
+    min-height: inherit;
   }
 }
 .section-decorate__grid {
@@ -2368,7 +2373,7 @@ html.with-fancybox body.hide-scrollbar {
 }
 @media screen and (max-width: 767px) {
   .section-decorate__wrapper {
-    min-height: 120px;
+    min-height: inherit;
   }
 }
 .section-decorate__text {
@@ -4460,4 +4465,123 @@ button {
 }
 .pause-icon {
   opacity: 0;
+}
+
+.bg-gold {
+  background-color: #D1AA6B;
+}
+
+.breadcrumbs {
+  padding: 20px 0;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item {
+  color: #3E3232;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item svg {
+  width: 16px;
+  height: 16px;
+}
+
+.breadcrumbs__item:first-child svg {
+  display: none;
+}
+
+.breadcrumbs__item:first-child::before,
+.breadcrumbs__item:first-child::after {
+  display: none;
+}
+
+.breadcrumbs__item:last-child {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+
+.grid-news {
+  padding: 30px 0 115px;
+}
+
+.grid-news__header {
+  margin-bottom: 38px;
+}
+
+.grid-news__header .caption-decorate__text {
+  color: #3E3232;
+}
+
+.grid-news__header .caption-decorate__text:before {
+  background-color: #3E3232;
+}
+
+.grid-news__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(1px, 1fr));
+  gap: 25px;
+}
+
+@media screen and (max-width: 1440px) {
+  .grid-news__wrapper {
+    grid-template-columns: repeat(3, minmax(1px, 1fr));
+  }
+}
+
+@media screen and (max-width: 1019px) {
+  .grid-news__wrapper {
+    grid-template-columns: repeat(2, minmax(1px, 1fr));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .grid-news__wrapper {
+    grid-template-columns: repeat(1, minmax(1px, 1fr));
+    gap: 12px;
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #3E3232;
+  margin-top: 20px;
+}
+
+.pagination__list {
+  display: flex;
+  gap: 5px;
+}
+
+.pagination__link {
+  padding: 8px;
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  transition: background 0.3s ease-in-out;
+}
+
+a.pagination__link:hover {
+  background-color: #ECECEC;
+}
+
+span.pagination__link {
+  cursor: default;
+}
+
+.pagination__link.is-active {
+  background-color: #ECECEC;
+  pointer-events: none;
 }
