@@ -4530,6 +4530,10 @@ button {
   gap: 25px;
 }
 
+.grid-news .card:hover {
+  background-color: #e2bc7a;
+}
+
 @media screen and (max-width: 1440px) {
   .grid-news__wrapper {
     grid-template-columns: repeat(3, minmax(1px, 1fr));
